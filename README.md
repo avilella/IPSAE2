@@ -22,8 +22,8 @@ Gemmi or other libraries needed by your prediction programs.
 ```bash
 git clone https://github.com/DunbrackLab/IPSAE2.git
 cd IPSAE2
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv ~/venv/ipsae2
+source ~/venv/ipsae2/bin/activate
 python -m pip install .
 ipsae --version
 ```
